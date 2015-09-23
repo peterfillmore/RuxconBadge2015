@@ -1,0 +1,12 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BCAAAPC
+D MPD (Memory Protection Devices) BCAAAPC - AAA Battery Holder
+K BCAAAPC
+$ENDCMP
+#
+$CMP NCP1402
+D PFM Step-Up Micropower Switching Regulator
+$ENDCMP
+#
+#End Doc Library

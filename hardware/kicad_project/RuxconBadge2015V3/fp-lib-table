@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name RuxconBadge2015)(type KiCad)(uri "$(KIPRJMOD).pretty")(options "")(descr ""))
+  (lib (name logo)(type KiCad)(uri "$(KIPRJMOD)")(options "")(descr ""))
+)
