@@ -1,18 +1,19 @@
 #include "stm32f0xx_conf.h"
 
+//timer interrupt - registered in the startup.s file
 void SysTick_Handler(void) {
   static uint16_t tick = 0;
 
   switch (tick++) {
   	case 50:
-        GPIOA->ODR ^=(1<<8); 
+        GPIOA->ODR ^=(1<<8); //pin 8 
         break;
   	case 100:
-        GPIOA->ODR ^=(1<<9); 
+        GPIOA->ODR ^=(1<<9); //pin 9
         break;
   	case 150:
   		tick = 0;
-        GPIOA->ODR ^=(1<<10); 
+        GPIOA->ODR ^=(1<<10);  //pin 10
         //GPIOA->ODR ^= 0x700;
   		//GPIOA->ODR ^= (1 << 9);
   		//GPIOA->ODR ^= (1 << 10);

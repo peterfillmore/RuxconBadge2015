@@ -1,0 +1,8 @@
+requires installation of the arm-non-eabi tools
+don't forget to install the i686 libc stuff for the 32bit headers
+
+blinky is to blink the LEDs
+i2ctest was to get the i2c peripheral working - i then realised i hooked it up wrong (PF0 and PF1 don't have i2c on the chip :( )
+
+ssd1306 is the u8glib working - so i could drive my cheap oled display
+
