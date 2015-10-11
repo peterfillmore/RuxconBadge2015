@@ -3,6 +3,7 @@ don't forget to install the i686 libc stuff for the 32bit headers
 
 blinky is to blink the LEDs
 i2ctest was to get the i2c peripheral working - i then realised i hooked it up wrong (PF0 and PF1 don't have i2c on the chip :( )
-
 ssd1306 is the u8glib working - so i could drive my cheap oled display
+ssd1306_interrupts moves the blinky leds to the systimer interrupt routine.
+threatbutt_IoT is a mobile threat defence tool - aka displays threats in real time!. Hooks up to an ESP8266 to detect and look up who is attacking you. Coded hastely and with no experience - so security bugs galore!
 

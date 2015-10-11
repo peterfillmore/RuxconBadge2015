@@ -1,18 +1,18 @@
 Archive member included to satisfy reference by file (symbol)
 
 Libraries/libstm32f0.a(stm32f0xx_gpio.o)
-                              /tmp/ccj3s9HC.o (GPIO_Init)
+                              /tmp/ccye4jBt.o (GPIO_Init)
 Libraries/libstm32f0.a(stm32f0xx_i2c.o)
-                              /tmp/ccw6JwPb.o (I2C_Init)
+                              /tmp/ccUyTYhN.o (I2C_Init)
 Libraries/libstm32f0.a(stm32f0xx_rcc.o)
-                              /tmp/ccw6JwPb.o (RCC_I2CCLKConfig)
+                              /tmp/ccUyTYhN.o (RCC_I2CCLKConfig)
 u8glib/libu8g.a(u8g_bitmap.o)
-                              /tmp/ccj3s9HC.o (u8g_DrawXBM)
+                              /tmp/ccye4jBt.o (u8g_DrawXBM)
 u8glib/libu8g.a(u8g_clip.o)   u8glib/libu8g.a(u8g_bitmap.o) (u8g_IsBBXIntersection)
 u8glib/libu8g.a(u8g_dev_ssd1306_128x64.o)
-                              /tmp/ccj3s9HC.o (u8g_dev_ssd1306_128x64_i2c)
+                              /tmp/ccye4jBt.o (u8g_dev_ssd1306_128x64_i2c)
 u8glib/libu8g.a(u8g_ll_api.o)
-                              /tmp/ccj3s9HC.o (u8g_InitComFn)
+                              /tmp/ccye4jBt.o (u8g_InitComFn)
 u8glib/libu8g.a(u8g_state.o)  u8glib/libu8g.a(u8g_ll_api.o) (u8g_state_dummy_cb)
 u8glib/libu8g.a(u8g_pb16v1.o)
                               u8glib/libu8g.a(u8g_dev_ssd1306_128x64.o) (u8g_dev_pb16v1_base_fn)
@@ -25,9 +25,9 @@ u8glib/libu8g.a(u8g_com_null.o)
                               u8glib/libu8g.a(u8g_dev_ssd1306_128x64.o) (u8g_com_null_fn)
 u8glib/libu8g.a(u8g_page.o)   u8glib/libu8g.a(u8g_pb16v1.o) (u8g_page_First)
 /usr/lib/gcc/arm-none-eabi/4.9.2/armv6-m/libgcc.a(_thumb1_case_uqi.o)
-                              /tmp/ccx4njrk.o (__gnu_thumb1_case_uqi)
+                              /tmp/ccY58IDl.o (__gnu_thumb1_case_uqi)
 /usr/lib/gcc/arm-none-eabi/4.9.2/armv6-m/libgcc.a(_udivsi3.o)
-                              /tmp/ccFYb7mt.o (__aeabi_uidiv)
+                              /tmp/ccPJtfmU.o (__aeabi_uidiv)
 /usr/lib/gcc/arm-none-eabi/4.9.2/armv6-m/libgcc.a(_dvmd_tls.o)
                               /usr/lib/gcc/arm-none-eabi/4.9.2/armv6-m/libgcc.a(_udivsi3.o) (__aeabi_idiv0)
 /usr/lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/armv6-m/libg.a(lib_a-atexit.o)
@@ -50,10 +50,10 @@ u8glib/libu8g.a(u8g_page.o)   u8glib/libu8g.a(u8g_pb16v1.o) (u8g_page_First)
 Allocating common symbols
 Common symbol       size              file
 
-control             0x4               /tmp/ccx4njrk.o
-u8g                 0x4c              /tmp/ccj3s9HC.o
-USART2_InitStruct   0x18              /tmp/ccj3s9HC.o
-I2C1_InitStruct     0x1c              /tmp/ccj3s9HC.o
+control             0x4               /tmp/ccY58IDl.o
+u8g                 0x4c              /tmp/ccye4jBt.o
+USART2_InitStruct   0x18              /tmp/ccye4jBt.o
+I2C1_InitStruct     0x1c              /tmp/ccye4jBt.o
 
 Discarded input sections
 
@@ -82,37 +82,37 @@ Discarded input sections
  .debug_abbrev  0x0000000000000000       0x14 /usr/lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/armv6-m/crt0.o
  .debug_aranges
                 0x0000000000000000       0x20 /usr/lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/armv6-m/crt0.o
- .text          0x0000000000000000        0x0 /tmp/ccj3s9HC.o
- .data          0x0000000000000000        0x0 /tmp/ccj3s9HC.o
- .bss           0x0000000000000000        0x0 /tmp/ccj3s9HC.o
- .bss.i         0x0000000000000000        0x4 /tmp/ccj3s9HC.o
+ .text          0x0000000000000000        0x0 /tmp/ccye4jBt.o
+ .data          0x0000000000000000        0x0 /tmp/ccye4jBt.o
+ .bss           0x0000000000000000        0x0 /tmp/ccye4jBt.o
+ .bss.i         0x0000000000000000        0x4 /tmp/ccye4jBt.o
  .data.GPIOC_InitStruct
-                0x0000000000000000        0x8 /tmp/ccj3s9HC.o
- .text          0x0000000000000000        0x0 /tmp/ccFYb7mt.o
- .data          0x0000000000000000        0x0 /tmp/ccFYb7mt.o
- .bss           0x0000000000000000        0x0 /tmp/ccFYb7mt.o
- .text          0x0000000000000000        0x0 /tmp/ccx4njrk.o
- .data          0x0000000000000000        0x0 /tmp/ccx4njrk.o
- .bss           0x0000000000000000        0x0 /tmp/ccx4njrk.o
+                0x0000000000000000        0x8 /tmp/ccye4jBt.o
+ .text          0x0000000000000000        0x0 /tmp/ccPJtfmU.o
+ .data          0x0000000000000000        0x0 /tmp/ccPJtfmU.o
+ .bss           0x0000000000000000        0x0 /tmp/ccPJtfmU.o
+ .text          0x0000000000000000        0x0 /tmp/ccY58IDl.o
+ .data          0x0000000000000000        0x0 /tmp/ccY58IDl.o
+ .bss           0x0000000000000000        0x0 /tmp/ccY58IDl.o
  .text.u8g_i2c_init
-                0x0000000000000000        0x8 /tmp/ccx4njrk.o
+                0x0000000000000000        0x8 /tmp/ccY58IDl.o
  .text.u8g_i2c_start
-                0x0000000000000000       0x3c /tmp/ccx4njrk.o
+                0x0000000000000000       0x3c /tmp/ccY58IDl.o
  .text.u8g_i2c_send_byte
-                0x0000000000000000       0x58 /tmp/ccx4njrk.o
+                0x0000000000000000       0x58 /tmp/ccY58IDl.o
  .text.u8g_i2c_stop
-                0x0000000000000000       0x1c /tmp/ccx4njrk.o
- .text          0x0000000000000000        0x0 /tmp/ccw6JwPb.o
- .data          0x0000000000000000        0x0 /tmp/ccw6JwPb.o
- .bss           0x0000000000000000        0x0 /tmp/ccw6JwPb.o
+                0x0000000000000000       0x1c /tmp/ccY58IDl.o
+ .text          0x0000000000000000        0x0 /tmp/ccUyTYhN.o
+ .data          0x0000000000000000        0x0 /tmp/ccUyTYhN.o
+ .bss           0x0000000000000000        0x0 /tmp/ccUyTYhN.o
  .text.I2C_PCF_send
-                0x0000000000000000       0x48 /tmp/ccw6JwPb.o
- .text.i2c_out  0x0000000000000000       0x54 /tmp/ccw6JwPb.o
+                0x0000000000000000       0x48 /tmp/ccUyTYhN.o
+ .text.i2c_out  0x0000000000000000       0x54 /tmp/ccUyTYhN.o
  .text.I2C_start
-                0x0000000000000000       0x4c /tmp/ccw6JwPb.o
- .text          0x0000000000000000       0x14 /tmp/ccrhsDg3.o
- .data          0x0000000000000000        0x0 /tmp/ccrhsDg3.o
- .bss           0x0000000000000000        0x0 /tmp/ccrhsDg3.o
+                0x0000000000000000       0x4c /tmp/ccUyTYhN.o
+ .text          0x0000000000000000       0x14 /tmp/ccXt0v0e.o
+ .data          0x0000000000000000        0x0 /tmp/ccXt0v0e.o
+ .bss           0x0000000000000000        0x0 /tmp/ccXt0v0e.o
  .data          0x0000000000000000        0x0 Libraries/libstm32f0.a(stm32f0xx_gpio.o)
  .bss           0x0000000000000000        0x0 Libraries/libstm32f0.a(stm32f0xx_gpio.o)
  .data          0x0000000000000000        0x0 Libraries/libstm32f0.a(stm32f0xx_i2c.o)
@@ -272,11 +272,11 @@ Linker script and memory map
 LOAD /usr/lib/gcc/arm-none-eabi/4.9.2/armv6-m/crti.o
 LOAD /usr/lib/gcc/arm-none-eabi/4.9.2/armv6-m/crtbegin.o
 LOAD /usr/lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/armv6-m/crt0.o
-LOAD /tmp/ccj3s9HC.o
-LOAD /tmp/ccFYb7mt.o
-LOAD /tmp/ccx4njrk.o
-LOAD /tmp/ccw6JwPb.o
-LOAD /tmp/ccrhsDg3.o
+LOAD /tmp/ccye4jBt.o
+LOAD /tmp/ccPJtfmU.o
+LOAD /tmp/ccY58IDl.o
+LOAD /tmp/ccUyTYhN.o
+LOAD /tmp/ccXt0v0e.o
 LOAD Libraries/libstm32f0.a
 LOAD u8glib/libu8g.a
 START GROUP
@@ -291,7 +291,7 @@ LOAD /usr/lib/gcc/arm-none-eabi/4.9.2/armv6-m/crtn.o
 .isr_vector     0x0000000008000000       0xc4
                 0x0000000008000000                . = ALIGN (0x4)
  *(.isr_vector)
- .isr_vector    0x0000000008000000       0xc4 /tmp/ccrhsDg3.o
+ .isr_vector    0x0000000008000000       0xc4 /tmp/ccXt0v0e.o
                 0x0000000008000000                g_pfnVectors
                 0x00000000080000c4                . = ALIGN (0x4)
 
@@ -580,54 +580,54 @@ LOAD /usr/lib/gcc/arm-none-eabi/4.9.2/armv6-m/crtn.o
                 0x0000000008002ab4                __libc_init_array
  *(.text.*)
  .text.USART2_IRQHandler
-                0x0000000008002afc       0x14 /tmp/ccj3s9HC.o
+                0x0000000008002afc       0x14 /tmp/ccye4jBt.o
                 0x0000000008002afc                USART2_IRQHandler
  .text.SysTick_Handler
-                0x0000000008002b10       0x10 /tmp/ccj3s9HC.o
+                0x0000000008002b10       0x10 /tmp/ccye4jBt.o
                 0x0000000008002b10                SysTick_Handler
- .text.draw     0x0000000008002b20       0x20 /tmp/ccj3s9HC.o
+ .text.draw     0x0000000008002b20       0x20 /tmp/ccye4jBt.o
                 0x0000000008002b20                draw
  .text.startup.main
-                0x0000000008002b40       0xb4 /tmp/ccj3s9HC.o
+                0x0000000008002b40       0xb4 /tmp/ccye4jBt.o
                 0x0000000008002b40                main
  .text.SystemInit
-                0x0000000008002bf4       0xb8 /tmp/ccFYb7mt.o
+                0x0000000008002bf4       0xb8 /tmp/ccPJtfmU.o
                 0x0000000008002bf4                SystemInit
  .text.SystemCoreClockUpdate
-                0x0000000008002cac       0x64 /tmp/ccFYb7mt.o
+                0x0000000008002cac       0x64 /tmp/ccPJtfmU.o
                 0x0000000008002cac                SystemCoreClockUpdate
  .text._delay_system_ticks_sub
-                0x0000000008002d10       0x44 /tmp/ccx4njrk.o
+                0x0000000008002d10       0x44 /tmp/ccY58IDl.o
  .text.delay_system_ticks
-                0x0000000008002d54       0x28 /tmp/ccx4njrk.o
+                0x0000000008002d54       0x28 /tmp/ccY58IDl.o
                 0x0000000008002d54                delay_system_ticks
  .text.delay_micro_seconds
-                0x0000000008002d7c       0x20 /tmp/ccx4njrk.o
+                0x0000000008002d7c       0x20 /tmp/ccY58IDl.o
                 0x0000000008002d7c                delay_micro_seconds
  .text.u8g_Delay
-                0x0000000008002d9c        0xe /tmp/ccx4njrk.o
+                0x0000000008002d9c        0xe /tmp/ccY58IDl.o
                 0x0000000008002d9c                u8g_Delay
  .text.u8g_MicroDelay
-                0x0000000008002daa        0xa /tmp/ccx4njrk.o
+                0x0000000008002daa        0xa /tmp/ccY58IDl.o
                 0x0000000008002daa                u8g_MicroDelay
  .text.u8g_10MicroDelay
-                0x0000000008002db4        0xa /tmp/ccx4njrk.o
+                0x0000000008002db4        0xa /tmp/ccY58IDl.o
                 0x0000000008002db4                u8g_10MicroDelay
  *fill*         0x0000000008002dbe        0x2 
  .text.u8g_com_hw_i2c_fn
-                0x0000000008002dc0       0xf8 /tmp/ccx4njrk.o
+                0x0000000008002dc0       0xf8 /tmp/ccY58IDl.o
                 0x0000000008002dc0                u8g_com_hw_i2c_fn
  .text.init_i2c
-                0x0000000008002eb8       0x8c /tmp/ccw6JwPb.o
+                0x0000000008002eb8       0x8c /tmp/ccUyTYhN.o
                 0x0000000008002eb8                init_i2c
  .text.I2C_WrReg
-                0x0000000008002f44       0x88 /tmp/ccw6JwPb.o
+                0x0000000008002f44       0x88 /tmp/ccUyTYhN.o
                 0x0000000008002f44                I2C_WrReg
  .text.Reset_Handler
-                0x0000000008002fcc       0x50 /tmp/ccrhsDg3.o
+                0x0000000008002fcc       0x50 /tmp/ccXt0v0e.o
                 0x0000000008002fcc                Reset_Handler
  .text.Default_Handler
-                0x000000000800301c        0x2 /tmp/ccrhsDg3.o
+                0x000000000800301c        0x2 /tmp/ccXt0v0e.o
                 0x000000000800301c                TIM1_CC_IRQHandler
                 0x000000000800301c                HardFault_Handler
                 0x000000000800301c                ADC1_COMP_IRQHandler
@@ -663,7 +663,7 @@ LOAD /usr/lib/gcc/arm-none-eabi/4.9.2/armv6-m/crtn.o
                 0x000000000800301c                TIM1_BRK_UP_TRG_COM_IRQHandler
  *(.rodata)
  *fill*         0x000000000800301e        0x2 
- .rodata        0x0000000008003020        0x8 /tmp/ccw6JwPb.o
+ .rodata        0x0000000008003020        0x8 /tmp/ccUyTYhN.o
  .rodata        0x0000000008003028       0x70 u8glib/libu8g.a(u8g_dev_ssd1306_128x64.o)
  *(.rodata*)
  *(.glue_7)
@@ -729,15 +729,15 @@ LOAD /usr/lib/gcc/arm-none-eabi/4.9.2/armv6-m/crtn.o
                 0x000000002000013c                u8g_dev_ssd1306_128x64_sw_spi_pb
  *(.data.*)
  .data.GPIOA_InitStruct
-                0x0000000020000148        0x8 /tmp/ccj3s9HC.o
+                0x0000000020000148        0x8 /tmp/ccye4jBt.o
                 0x0000000020000148                GPIOA_InitStruct
  .data.threatbutt_bits
-                0x0000000020000150      0x200 /tmp/ccj3s9HC.o
+                0x0000000020000150      0x200 /tmp/ccye4jBt.o
  .data.AHBPrescTable
-                0x0000000020000350       0x10 /tmp/ccFYb7mt.o
+                0x0000000020000350       0x10 /tmp/ccPJtfmU.o
                 0x0000000020000350                AHBPrescTable
  .data.SystemCoreClock
-                0x0000000020000360        0x4 /tmp/ccFYb7mt.o
+                0x0000000020000360        0x4 /tmp/ccPJtfmU.o
                 0x0000000020000360                SystemCoreClock
  *(.RAMtext)
                 0x0000000020000364                . = ALIGN (0x4)
@@ -765,14 +765,14 @@ LOAD /usr/lib/gcc/arm-none-eabi/4.9.2/armv6-m/crtn.o
                 0x0000000020000964                u8g_dev_ssd1306_128x64_sw_spi_buf
  *(.bss.*)
  .bss.timercounter
-                0x00000000200009e4        0x4 /tmp/ccj3s9HC.o
+                0x00000000200009e4        0x4 /tmp/ccye4jBt.o
                 0x00000000200009e4                timercounter
  *(COMMON)
- COMMON         0x00000000200009e8       0x80 /tmp/ccj3s9HC.o
+ COMMON         0x00000000200009e8       0x80 /tmp/ccye4jBt.o
                 0x00000000200009e8                u8g
                 0x0000000020000a34                USART2_InitStruct
                 0x0000000020000a4c                I2C1_InitStruct
- COMMON         0x0000000020000a68        0x4 /tmp/ccx4njrk.o
+ COMMON         0x0000000020000a68        0x4 /tmp/ccY58IDl.o
                 0x0000000020000a68                control
                 0x0000000020000a6c                . = ALIGN (0x4)
                 0x0000000020000a6c                _ebss = .
@@ -806,11 +806,11 @@ LOAD /usr/lib/gcc/arm-none-eabi/4.9.2/armv6-m/crtn.o
 
 .comment        0x0000000000000000       0x42
  *(.comment)
- .comment       0x0000000000000000       0x21 /tmp/ccj3s9HC.o
+ .comment       0x0000000000000000       0x21 /tmp/ccye4jBt.o
                                          0x22 (size before relaxing)
- .comment       0x0000000000000000       0x22 /tmp/ccFYb7mt.o
- .comment       0x0000000000000000       0x22 /tmp/ccx4njrk.o
- .comment       0x0000000000000000       0x22 /tmp/ccw6JwPb.o
+ .comment       0x0000000000000000       0x22 /tmp/ccPJtfmU.o
+ .comment       0x0000000000000000       0x22 /tmp/ccY58IDl.o
+ .comment       0x0000000000000000       0x22 /tmp/ccUyTYhN.o
  .comment       0x0000000000000000       0x22 Libraries/libstm32f0.a(stm32f0xx_gpio.o)
  .comment       0x0000000000000000       0x22 Libraries/libstm32f0.a(stm32f0xx_i2c.o)
  .comment       0x0000000000000000       0x22 Libraries/libstm32f0.a(stm32f0xx_rcc.o)
@@ -834,15 +834,15 @@ LOAD /usr/lib/gcc/arm-none-eabi/4.9.2/armv6-m/crtn.o
  .ARM.attributes
                 0x0000000000000000       0x1e /usr/lib/gcc/arm-none-eabi/4.9.2/armv6-m/crti.o
  .ARM.attributes
-                0x000000000000001e       0x31 /tmp/ccj3s9HC.o
+                0x000000000000001e       0x31 /tmp/ccye4jBt.o
  .ARM.attributes
-                0x000000000000004f       0x31 /tmp/ccFYb7mt.o
+                0x000000000000004f       0x31 /tmp/ccPJtfmU.o
  .ARM.attributes
-                0x0000000000000080       0x31 /tmp/ccx4njrk.o
+                0x0000000000000080       0x31 /tmp/ccY58IDl.o
  .ARM.attributes
-                0x00000000000000b1       0x31 /tmp/ccw6JwPb.o
+                0x00000000000000b1       0x31 /tmp/ccUyTYhN.o
  .ARM.attributes
-                0x00000000000000e2       0x21 /tmp/ccrhsDg3.o
+                0x00000000000000e2       0x21 /tmp/ccXt0v0e.o
  .ARM.attributes
                 0x0000000000000103       0x31 Libraries/libstm32f0.a(stm32f0xx_gpio.o)
  .ARM.attributes
@@ -899,15 +899,15 @@ LOAD /usr/lib/gcc/arm-none-eabi/4.9.2/armv6-m/crtn.o
 .debug_aranges  0x0000000000000000      0x398
  *(.debug_aranges)
  .debug_aranges
-                0x0000000000000000       0x38 /tmp/ccj3s9HC.o
+                0x0000000000000000       0x38 /tmp/ccye4jBt.o
  .debug_aranges
-                0x0000000000000038       0x28 /tmp/ccFYb7mt.o
+                0x0000000000000038       0x28 /tmp/ccPJtfmU.o
  .debug_aranges
-                0x0000000000000060       0x70 /tmp/ccx4njrk.o
+                0x0000000000000060       0x70 /tmp/ccY58IDl.o
  .debug_aranges
-                0x00000000000000d0       0x40 /tmp/ccw6JwPb.o
+                0x00000000000000d0       0x40 /tmp/ccUyTYhN.o
  .debug_aranges
-                0x0000000000000110       0x28 /tmp/ccrhsDg3.o
+                0x0000000000000110       0x28 /tmp/ccXt0v0e.o
  .debug_aranges
                 0x0000000000000138       0x20 Libraries/libstm32f0.a(stm32f0xx_gpio.o)
  .debug_aranges
@@ -952,11 +952,11 @@ LOAD /usr/lib/gcc/arm-none-eabi/4.9.2/armv6-m/crtn.o
 
 .debug_info     0x0000000000000000     0xd38e
  *(.debug_info .gnu.linkonce.wi.*)
- .debug_info    0x0000000000000000      0xd85 /tmp/ccj3s9HC.o
- .debug_info    0x0000000000000d85      0x2c3 /tmp/ccFYb7mt.o
- .debug_info    0x0000000000001048      0xbaa /tmp/ccx4njrk.o
- .debug_info    0x0000000000001bf2      0x9b3 /tmp/ccw6JwPb.o
- .debug_info    0x00000000000025a5       0x6c /tmp/ccrhsDg3.o
+ .debug_info    0x0000000000000000      0xd85 /tmp/ccye4jBt.o
+ .debug_info    0x0000000000000d85      0x2c3 /tmp/ccPJtfmU.o
+ .debug_info    0x0000000000001048      0xbaa /tmp/ccY58IDl.o
+ .debug_info    0x0000000000001bf2      0x9b3 /tmp/ccUyTYhN.o
+ .debug_info    0x00000000000025a5       0x6c /tmp/ccXt0v0e.o
  .debug_info    0x0000000000002611      0x6ca Libraries/libstm32f0.a(stm32f0xx_gpio.o)
  .debug_info    0x0000000000002cdb      0xbf2 Libraries/libstm32f0.a(stm32f0xx_i2c.o)
  .debug_info    0x00000000000038cd      0x9a2 Libraries/libstm32f0.a(stm32f0xx_rcc.o)
@@ -979,11 +979,11 @@ LOAD /usr/lib/gcc/arm-none-eabi/4.9.2/armv6-m/crtn.o
 
 .debug_abbrev   0x0000000000000000     0x24f1
  *(.debug_abbrev)
- .debug_abbrev  0x0000000000000000      0x2fd /tmp/ccj3s9HC.o
- .debug_abbrev  0x00000000000002fd      0x12f /tmp/ccFYb7mt.o
- .debug_abbrev  0x000000000000042c      0x252 /tmp/ccx4njrk.o
- .debug_abbrev  0x000000000000067e      0x188 /tmp/ccw6JwPb.o
- .debug_abbrev  0x0000000000000806       0x12 /tmp/ccrhsDg3.o
+ .debug_abbrev  0x0000000000000000      0x2fd /tmp/ccye4jBt.o
+ .debug_abbrev  0x00000000000002fd      0x12f /tmp/ccPJtfmU.o
+ .debug_abbrev  0x000000000000042c      0x252 /tmp/ccY58IDl.o
+ .debug_abbrev  0x000000000000067e      0x188 /tmp/ccUyTYhN.o
+ .debug_abbrev  0x0000000000000806       0x12 /tmp/ccXt0v0e.o
  .debug_abbrev  0x0000000000000818      0x1c7 Libraries/libstm32f0.a(stm32f0xx_gpio.o)
  .debug_abbrev  0x00000000000009df      0x1af Libraries/libstm32f0.a(stm32f0xx_i2c.o)
  .debug_abbrev  0x0000000000000b8e      0x230 Libraries/libstm32f0.a(stm32f0xx_rcc.o)
@@ -1004,39 +1004,39 @@ LOAD /usr/lib/gcc/arm-none-eabi/4.9.2/armv6-m/crtn.o
  .debug_abbrev  0x0000000000002423       0x14 /usr/lib/gcc/arm-none-eabi/4.9.2/armv6-m/libgcc.a(_dvmd_tls.o)
  .debug_abbrev  0x0000000000002437       0xba /usr/lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/armv6-m/libg.a(lib_a-init.o)
 
-.debug_line     0x0000000000000000     0x1f0b
+.debug_line     0x0000000000000000     0x1f17
  *(.debug_line)
- .debug_line    0x0000000000000000      0x1f9 /tmp/ccj3s9HC.o
- .debug_line    0x00000000000001f9       0xf3 /tmp/ccFYb7mt.o
- .debug_line    0x00000000000002ec      0x250 /tmp/ccx4njrk.o
- .debug_line    0x000000000000053c      0x1bc /tmp/ccw6JwPb.o
- .debug_line    0x00000000000006f8       0x7d /tmp/ccrhsDg3.o
- .debug_line    0x0000000000000775      0x1a4 Libraries/libstm32f0.a(stm32f0xx_gpio.o)
- .debug_line    0x0000000000000919      0x2bd Libraries/libstm32f0.a(stm32f0xx_i2c.o)
- .debug_line    0x0000000000000bd6      0x2fe Libraries/libstm32f0.a(stm32f0xx_rcc.o)
- .debug_line    0x0000000000000ed4       0xdf u8glib/libu8g.a(u8g_bitmap.o)
- .debug_line    0x0000000000000fb3       0x9b u8glib/libu8g.a(u8g_clip.o)
- .debug_line    0x000000000000104e       0xe7 u8glib/libu8g.a(u8g_dev_ssd1306_128x64.o)
- .debug_line    0x0000000000001135      0x266 u8glib/libu8g.a(u8g_ll_api.o)
- .debug_line    0x000000000000139b       0x71 u8glib/libu8g.a(u8g_state.o)
- .debug_line    0x000000000000140c       0xda u8glib/libu8g.a(u8g_pb16v1.o)
- .debug_line    0x00000000000014e6       0xc6 u8glib/libu8g.a(u8g_pb8v1.o)
- .debug_line    0x00000000000015ac       0xb3 u8glib/libu8g.a(u8g_com_api.o)
- .debug_line    0x000000000000165f       0xd1 u8glib/libu8g.a(u8g_pb.o)
- .debug_line    0x0000000000001730      0x4dc u8glib/libu8g.a(u8g_font.o)
- .debug_line    0x0000000000001c0c       0x6d u8glib/libu8g.a(u8g_com_null.o)
- .debug_line    0x0000000000001c79       0x87 u8glib/libu8g.a(u8g_page.o)
- .debug_line    0x0000000000001d00       0x6c /usr/lib/gcc/arm-none-eabi/4.9.2/armv6-m/libgcc.a(_thumb1_case_uqi.o)
- .debug_line    0x0000000000001d6c       0x7c /usr/lib/gcc/arm-none-eabi/4.9.2/armv6-m/libgcc.a(_udivsi3.o)
- .debug_line    0x0000000000001de8       0x64 /usr/lib/gcc/arm-none-eabi/4.9.2/armv6-m/libgcc.a(_dvmd_tls.o)
- .debug_line    0x0000000000001e4c       0xbf /usr/lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/armv6-m/libg.a(lib_a-init.o)
+ .debug_line    0x0000000000000000      0x205 /tmp/ccye4jBt.o
+ .debug_line    0x0000000000000205       0xf3 /tmp/ccPJtfmU.o
+ .debug_line    0x00000000000002f8      0x250 /tmp/ccY58IDl.o
+ .debug_line    0x0000000000000548      0x1bc /tmp/ccUyTYhN.o
+ .debug_line    0x0000000000000704       0x7d /tmp/ccXt0v0e.o
+ .debug_line    0x0000000000000781      0x1a4 Libraries/libstm32f0.a(stm32f0xx_gpio.o)
+ .debug_line    0x0000000000000925      0x2bd Libraries/libstm32f0.a(stm32f0xx_i2c.o)
+ .debug_line    0x0000000000000be2      0x2fe Libraries/libstm32f0.a(stm32f0xx_rcc.o)
+ .debug_line    0x0000000000000ee0       0xdf u8glib/libu8g.a(u8g_bitmap.o)
+ .debug_line    0x0000000000000fbf       0x9b u8glib/libu8g.a(u8g_clip.o)
+ .debug_line    0x000000000000105a       0xe7 u8glib/libu8g.a(u8g_dev_ssd1306_128x64.o)
+ .debug_line    0x0000000000001141      0x266 u8glib/libu8g.a(u8g_ll_api.o)
+ .debug_line    0x00000000000013a7       0x71 u8glib/libu8g.a(u8g_state.o)
+ .debug_line    0x0000000000001418       0xda u8glib/libu8g.a(u8g_pb16v1.o)
+ .debug_line    0x00000000000014f2       0xc6 u8glib/libu8g.a(u8g_pb8v1.o)
+ .debug_line    0x00000000000015b8       0xb3 u8glib/libu8g.a(u8g_com_api.o)
+ .debug_line    0x000000000000166b       0xd1 u8glib/libu8g.a(u8g_pb.o)
+ .debug_line    0x000000000000173c      0x4dc u8glib/libu8g.a(u8g_font.o)
+ .debug_line    0x0000000000001c18       0x6d u8glib/libu8g.a(u8g_com_null.o)
+ .debug_line    0x0000000000001c85       0x87 u8glib/libu8g.a(u8g_page.o)
+ .debug_line    0x0000000000001d0c       0x6c /usr/lib/gcc/arm-none-eabi/4.9.2/armv6-m/libgcc.a(_thumb1_case_uqi.o)
+ .debug_line    0x0000000000001d78       0x7c /usr/lib/gcc/arm-none-eabi/4.9.2/armv6-m/libgcc.a(_udivsi3.o)
+ .debug_line    0x0000000000001df4       0x64 /usr/lib/gcc/arm-none-eabi/4.9.2/armv6-m/libgcc.a(_dvmd_tls.o)
+ .debug_line    0x0000000000001e58       0xbf /usr/lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/armv6-m/libg.a(lib_a-init.o)
 
 .debug_frame    0x0000000000000000     0x1a48
  *(.debug_frame)
- .debug_frame   0x0000000000000000       0x70 /tmp/ccj3s9HC.o
- .debug_frame   0x0000000000000070       0x48 /tmp/ccFYb7mt.o
- .debug_frame   0x00000000000000b8      0x124 /tmp/ccx4njrk.o
- .debug_frame   0x00000000000001dc       0xa4 /tmp/ccw6JwPb.o
+ .debug_frame   0x0000000000000000       0x70 /tmp/ccye4jBt.o
+ .debug_frame   0x0000000000000070       0x48 /tmp/ccPJtfmU.o
+ .debug_frame   0x00000000000000b8      0x124 /tmp/ccY58IDl.o
+ .debug_frame   0x00000000000001dc       0xa4 /tmp/ccUyTYhN.o
  .debug_frame   0x0000000000000280      0x110 Libraries/libstm32f0.a(stm32f0xx_gpio.o)
  .debug_frame   0x0000000000000390      0x2d8 Libraries/libstm32f0.a(stm32f0xx_i2c.o)
  .debug_frame   0x0000000000000668      0x2a0 Libraries/libstm32f0.a(stm32f0xx_rcc.o)
@@ -1057,13 +1057,13 @@ LOAD /usr/lib/gcc/arm-none-eabi/4.9.2/armv6-m/crtn.o
 
 .debug_str      0x0000000000000000     0x2cf7
  *(.debug_str)
- .debug_str     0x0000000000000000      0x975 /tmp/ccj3s9HC.o
+ .debug_str     0x0000000000000000      0x975 /tmp/ccye4jBt.o
                                         0xa13 (size before relaxing)
- .debug_str     0x0000000000000975       0xd3 /tmp/ccFYb7mt.o
+ .debug_str     0x0000000000000975       0xd3 /tmp/ccPJtfmU.o
                                         0x24c (size before relaxing)
- .debug_str     0x0000000000000a48      0x194 /tmp/ccx4njrk.o
+ .debug_str     0x0000000000000a48      0x194 /tmp/ccY58IDl.o
                                         0x5de (size before relaxing)
- .debug_str     0x0000000000000bdc       0xfc /tmp/ccw6JwPb.o
+ .debug_str     0x0000000000000bdc       0xfc /tmp/ccUyTYhN.o
                                         0x53f (size before relaxing)
  .debug_str     0x0000000000000cd8      0x1c4 Libraries/libstm32f0.a(stm32f0xx_gpio.o)
                                         0x46f (size before relaxing)
@@ -1100,10 +1100,10 @@ LOAD /usr/lib/gcc/arm-none-eabi/4.9.2/armv6-m/crtn.o
 
 .debug_loc      0x0000000000000000     0x845a
  *(.debug_loc)
- .debug_loc     0x0000000000000000       0xa4 /tmp/ccj3s9HC.o
- .debug_loc     0x00000000000000a4       0xe7 /tmp/ccFYb7mt.o
- .debug_loc     0x000000000000018b      0x361 /tmp/ccx4njrk.o
- .debug_loc     0x00000000000004ec       0xe7 /tmp/ccw6JwPb.o
+ .debug_loc     0x0000000000000000       0xa4 /tmp/ccye4jBt.o
+ .debug_loc     0x00000000000000a4       0xe7 /tmp/ccPJtfmU.o
+ .debug_loc     0x000000000000018b      0x361 /tmp/ccY58IDl.o
+ .debug_loc     0x00000000000004ec       0xe7 /tmp/ccUyTYhN.o
  .debug_loc     0x00000000000005d3      0x38e Libraries/libstm32f0.a(stm32f0xx_gpio.o)
  .debug_loc     0x0000000000000961      0x620 Libraries/libstm32f0.a(stm32f0xx_i2c.o)
  .debug_loc     0x0000000000000f81      0x85a Libraries/libstm32f0.a(stm32f0xx_rcc.o)
@@ -1138,11 +1138,11 @@ LOAD /usr/lib/gcc/arm-none-eabi/4.9.2/armv6-m/crtn.o
 OUTPUT(main.elf elf32-littlearm)
 
 .debug_ranges   0x0000000000000000      0x398
- .debug_ranges  0x0000000000000000       0x60 /tmp/ccj3s9HC.o
- .debug_ranges  0x0000000000000060       0x30 /tmp/ccFYb7mt.o
- .debug_ranges  0x0000000000000090       0x60 /tmp/ccx4njrk.o
- .debug_ranges  0x00000000000000f0       0x30 /tmp/ccw6JwPb.o
- .debug_ranges  0x0000000000000120       0x20 /tmp/ccrhsDg3.o
+ .debug_ranges  0x0000000000000000       0x60 /tmp/ccye4jBt.o
+ .debug_ranges  0x0000000000000060       0x30 /tmp/ccPJtfmU.o
+ .debug_ranges  0x0000000000000090       0x60 /tmp/ccY58IDl.o
+ .debug_ranges  0x00000000000000f0       0x30 /tmp/ccUyTYhN.o
+ .debug_ranges  0x0000000000000120       0x20 /tmp/ccXt0v0e.o
  .debug_ranges  0x0000000000000140       0x30 u8glib/libu8g.a(u8g_bitmap.o)
  .debug_ranges  0x0000000000000170       0x48 u8glib/libu8g.a(u8g_clip.o)
  .debug_ranges  0x00000000000001b8       0x40 u8glib/libu8g.a(u8g_ll_api.o)

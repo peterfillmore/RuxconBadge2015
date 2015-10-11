@@ -16,7 +16,7 @@ SYMBOL TABLE:
 00000000 l    d  .debug_str	00000000 .debug_str
 00000000 l    d  .debug_loc	00000000 .debug_loc
 00000000 l    d  .debug_ranges	00000000 .debug_ranges
-00000000 l    df *ABS*	00000000 /tmp/ccrhsDg3.o
+00000000 l    df *ABS*	00000000 /tmp/ccXt0v0e.o
 f108f85f l       *ABS*	00000000 BootRAM
 08002fdc l       .text	00000000 LoopCopyDataInit
 08002fd4 l       .text	00000000 CopyDataInit

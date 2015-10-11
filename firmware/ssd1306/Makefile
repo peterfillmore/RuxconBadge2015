@@ -11,8 +11,11 @@ U8G_LIB=u8glib
 # Location of the linker scripts
 LDSCRIPT_INC=Device/ldscripts
 
+#location of OpenOCD
+OPENOCD_BASE_DIR=/usr/share/openocd
 # location of OpenOCD Board .cfg files (only used with 'make program')
-OPENOCD_BOARD_DIR=/usr/share/openocd/scripts/board
+#OPENOCD_BOARD_DIR=$(OPENOCD_BASE_DIR)/scripts/board
+OPENOCD_BOARD_DIR=./extra
 
 # Configuration (cfg) file containing programming directives for OpenOCD
 OPENOCD_PROC_FILE=extra/stm32f0-openocd.cfg
@@ -74,10 +77,10 @@ $(PROJ_NAME).elf: $(SRCS)
 	$(SIZE) $(PROJ_NAME).elf
 	
 program: $(PROJ_NAME).bin
-	openocd -s /usr/share/openocd/scripts/ -f $(OPENOCD_BOARD_DIR)/stm32f030k6.cfg -f $(OPENOCD_PROC_FILE) -c "stm_flash `pwd`/$(PROJ_NAME).bin" -c shutdown
+	openocd -s $(OPENOCD_BASE_DIR)/scripts/ -f $(OPENOCD_BOARD_DIR)/stm32f030k6.cfg -f $(OPENOCD_PROC_FILE) -c "stm_flash `pwd`/$(PROJ_NAME).bin" -c shutdown
 
 debug: $(PROJ_NAME).bin
-	openocd -s /usr/share/openocd/scripts/ -f $(OPENOCD_BOARD_DIR)/stm32f030k6.cfg  
+	openocd -s $(OPENOCD_BASE_DIR)/scripts/ -f $(OPENOCD_BOARD_DIR)/stm32f030k6.cfg  
 
 
 clean:
