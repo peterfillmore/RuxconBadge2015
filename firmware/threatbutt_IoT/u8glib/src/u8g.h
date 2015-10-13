@@ -1658,7 +1658,7 @@ void chess_Step(uint8_t keycode);
 //
 //extern const u8g_fntpgm_uint8_t u8g_font_gdr9r[] U8G_FONT_SECTION("u8g_font_gdr9r");
 //extern const u8g_fntpgm_uint8_t u8g_font_gdr10r[] U8G_FONT_SECTION("u8g_font_gdr10r");
-//extern const u8g_fntpgm_uint8_t u8g_font_gdr11r[] U8G_FONT_SECTION("u8g_font_gdr11r");
+extern const u8g_fntpgm_uint8_t u8g_font_gdr11r[] U8G_FONT_SECTION("u8g_font_gdr11r");
 //extern const u8g_fntpgm_uint8_t u8g_font_gdr12r[] U8G_FONT_SECTION("u8g_font_gdr12r");
 //extern const u8g_fntpgm_uint8_t u8g_font_gdr14r[] U8G_FONT_SECTION("u8g_font_gdr14r");
 //extern const u8g_fntpgm_uint8_t u8g_font_gdr17r[] U8G_FONT_SECTION("u8g_font_gdr17r");
@@ -1737,7 +1737,7 @@ void chess_Step(uint8_t keycode);
 //extern const u8g_fntpgm_uint8_t u8g_font_unifont_77[] U8G_FONT_SECTION("u8g_font_unifont_77");
 //extern const u8g_fntpgm_uint8_t u8g_font_unifont_78_79[] U8G_FONT_SECTION("u8g_font_unifont_78_79");
 //extern const u8g_fntpgm_uint8_t u8g_font_unifont_86[] U8G_FONT_SECTION("u8g_font_unifont_86");
-extern const u8g_fntpgm_uint8_t u8g_font_unifont[] U8G_FONT_SECTION("u8g_font_unifont");
+//extern const u8g_fntpgm_uint8_t u8g_font_unifont[] U8G_FONT_SECTION("u8g_font_unifont");
 //extern const u8g_fntpgm_uint8_t u8g_font_unifontr[] U8G_FONT_SECTION("u8g_font_unifontr");
 //extern const u8g_fntpgm_uint8_t u8g_font_unifont_0_8[] U8G_FONT_SECTION("u8g_font_unifont_0_8");
 //extern const u8g_fntpgm_uint8_t u8g_font_unifont_2_3[] U8G_FONT_SECTION("u8g_font_unifont_2_3");
@@ -1964,7 +1964,7 @@ extern const u8g_fntpgm_uint8_t u8g_font_unifont[] U8G_FONT_SECTION("u8g_font_un
 //extern const u8g_fntpgm_uint8_t u8g_font_profont17[] U8G_FONT_SECTION("u8g_font_profont17");
 //extern const u8g_fntpgm_uint8_t u8g_font_profont17r[] U8G_FONT_SECTION("u8g_font_profont17r");
 //extern const u8g_fntpgm_uint8_t u8g_font_profont22[] U8G_FONT_SECTION("u8g_font_profont22");
-//extern const u8g_fntpgm_uint8_t u8g_font_profont22r[] U8G_FONT_SECTION("u8g_font_profont22r");
+extern const u8g_fntpgm_uint8_t u8g_font_profont22r[] U8G_FONT_SECTION("u8g_font_profont22r");
 //extern const u8g_fntpgm_uint8_t u8g_font_profont29[] U8G_FONT_SECTION("u8g_font_profont29");
 //extern const u8g_fntpgm_uint8_t u8g_font_profont29r[] U8G_FONT_SECTION("u8g_font_profont29r");
 

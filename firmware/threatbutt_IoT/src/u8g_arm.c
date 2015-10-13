@@ -183,9 +183,10 @@ uint8_t u8g_com_hw_i2c_fn(u8g_t *u8g, uint8_t msg, uint8_t arg_val, void *arg_pt
             //Wait for the stop flag to be set indicating a stop condition has been sent
         }
 	    I2C_TransferHandling(I2C1, 0x78, 0, I2C_AutoEnd_Mode, I2C_Generate_Stop);
-	    while(I2C_GetFlagStatus(I2C1,I2C_FLAG_STOPF) == RESET);
-	    I2C_ClearFlag(I2C1, I2C_FLAG_STOPF); 
-        u8g_MicroDelay();
+        //while(I2C_GetFlagStatus(I2C1,I2C_FLAG_STOPF) == RESET);
+	    //I2C_ClearFlag(I2C1, I2C_FLAG_STOPF); 
+        delay_micro_seconds(100);
+        //u8g_MicroDelay();
         break;
   }
   return 1;

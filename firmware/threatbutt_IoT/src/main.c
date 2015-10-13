@@ -17,8 +17,8 @@ int ip_valid = 0;
 u8g_t u8g; 
 
 //char rxbuffer[256];
-char attacker[64];
-char vector[64];
+char attacker[128];
+char vector[128];
 char ip_addr[64];
 
 //bool redledon = false;
@@ -109,8 +109,8 @@ void USART1_IRQHandler(void){
     static int vector_index = 0;
     static int ip_index = 0;
     static char rx_buffer[256];
-    static char at_buf[64];
-    static char vec_buf[64];
+    static char at_buf[128];
+    static char vec_buf[128];
     static char ip_buf[64];
     if(i==0){ 
         GPIO_SetBits(GPIOA, GPIO_Pin_10);
@@ -246,15 +246,18 @@ void initUSART1(){
 
 void draw(uint8_t pos)
 {
-  u8g_SetFont(&u8g, u8g_font_unifont);
+  //u8g_SetFont(&u8g, u8g_font_unifont);
   //char tokenstr[256]; 
   //u8g_DrawBox(&u8g, 1,1+pos,100,100);
-  u8g_DrawXBM(&u8g, pos,0, threatbutt_width, threatbutt_height, threatbutt_bits);
+  u8g_DrawXBM(&u8g, pos-64,0, threatbutt_width, threatbutt_height, threatbutt_bits);
   if(line_valid == 1){
-      u8g_DrawStr(&u8g, (pos+threatbutt_width), 20, ip_addr);
-      u8g_DrawStr(&u8g, (pos+threatbutt_width), 40, attacker);
+      u8g_SetFont(&u8g, u8g_font_profont22r);
+      u8g_DrawStr(&u8g, pos, 20, ip_addr);
+      u8g_SetFont(&u8g, u8g_font_gdr11r);
+      u8g_DrawStr(&u8g, pos, 40, attacker);
       //token = strtok(NULL, ';'); 
-      u8g_DrawStr(&u8g, (pos+threatbutt_width), 60, vector);
+       
+      u8g_DrawStr(&u8g, pos, 60, vector);
       //while(tokstr != NULL) {
       //  tokstr = strtok(NULL,";");
       //  u8g_DrawStr(&u8g, pos, 40, tokstr);
@@ -265,7 +268,7 @@ void draw(uint8_t pos)
 int main(void)
 {
     //RCC_ClocksTypeDef Clocks;
-    uint8_t pos = 0;
+    uint8_t pos = 128+64;
      
     SystemInit();
     SystemCoreClockUpdate(); //update the system clock variable
@@ -277,7 +280,19 @@ int main(void)
     SysTick_Config(SystemCoreClock/8);
     initUSART1();
     GPIO_SetBits(GPIOA, GPIO_Pin_10);
+   
+    //initialize the watchdog
     
+    IWDG_WriteAccessCmd(IWDG_WriteAccess_Enable);
+    IWDG_SetPrescaler(0x00);
+    //while(IWDG_GetFlagStatus(IWDG_FLAG_PVU)==SET);
+    IWDG_SetReload(0xFFFF);
+    //while(IWDG_GetFlagStatus(IWDG_FLAG_RVU)==SET);
+    //IWDG_SetWindowValue(0x0000);
+    //while(IWDG_GetFlagStatus(IWDG_FLAG_PVU)==SET);
+    IWDG_ReloadCounter();
+    IWDG_Enable();
+
     static BitAction toggle = Bit_SET;
     
     int i =0;
@@ -285,21 +300,22 @@ int main(void)
     //init the u8g library
     u8g_InitComFn(&u8g,  &u8g_dev_ssd1306_128x64_i2c, u8g_com_hw_i2c_fn);
     u8g_SetDefaultForegroundColor(&u8g);
-    //u8g_SetFont(&u8g, u8g_font_unifont);
            
     while(1){
         u8g_FirstPage(&u8g);
         do
         {
+          IWDG_ReloadCounter();
           draw(pos);
         } while ( u8g_NextPage(&u8g) );
          
          /* refresh screen after some delay */
          ///* update position */
-         pos--;
-         
-
- 
+        if(pos < 128+128){  
+            pos--;
+        }else
+        { pos = 128+128;
+        }
     }
 }
   

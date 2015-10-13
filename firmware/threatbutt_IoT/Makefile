@@ -33,7 +33,7 @@ CFLAGS  = -Wall -g -std=c99 -Os
 CFLAGS += -mlittle-endian -mcpu=cortex-m0  -march=armv6-m -mthumb
 CFLAGS += -ffunction-sections -fdata-sections -ffreestanding
 CFLAGS += -Wl,--gc-sections -Wl,-Map=$(PROJ_NAME).map
-#CFLAGS += -ggdb
+CFLAGS += -ggdb
 
 ###################################################
 

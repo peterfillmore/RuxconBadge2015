@@ -1,7 +1,9 @@
 #include "i2c_func.h"
 
 void I2C1_IRQHandler(void){
-
+   //if(I2C_GetFlagStatus(I2C1, I2C_FLAG_NACKF) == SET){
+   // I2C_ClearFlag(I2C1, I2C_FLAG_NACKF);
+   //}
 }
 
 //initialize the i2c periperal
@@ -37,6 +39,8 @@ void init_i2c(void){
         .I2C_AcknowledgedAddress = I2C_AcknowledgedAddress_7bit
     };
     I2C_Init(I2C1, &I2C_InitStructure);
+    //I2C_ITConfig(USART1, I2C_IT_NACKI, ENABLE);
+    //NVIC_EnableIRQ(I2C1_IRQn);
     I2C_Cmd(I2C1, ENABLE);
 }
 
