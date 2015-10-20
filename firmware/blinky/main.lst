@@ -16,7 +16,7 @@ SYMBOL TABLE:
 00000000 l    d  .debug_str	00000000 .debug_str
 00000000 l    d  .debug_loc	00000000 .debug_loc
 00000000 l    d  .debug_ranges	00000000 .debug_ranges
-00000000 l    df *ABS*	00000000 /tmp/cckshM9j.o
+00000000 l    df *ABS*	00000000 /tmp/ccSmFBiF.o
 f108f85f l       *ABS*	00000000 BootRAM
 0800032c l       .text	00000000 LoopCopyDataInit
 08000324 l       .text	00000000 CopyDataInit
@@ -232,8 +232,8 @@ Disassembly of section .text:
 	...
 
 080001ac <SysTick_Handler>:
-#include "stm32f0xx_conf.h"
 
+//timer interrupt - registered in the startup.s file
 void SysTick_Handler(void) {
   static uint16_t tick = 0;
 
